@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NBA Player Application</title>
+</head>
+<body>
+    <div="mainContent">
+            <h1>NBA Player Application</h1>
+            <p>If you are interested in developing your basketball skills and your determination is to one day become an NBA Player, please fill out this application.</p></br>
+            <div class="formclass">
+                <form name="input" action="https://formspree.io/mgeaqkal" method="post">
+                    <fieldset>
+                        <legend>Basic Info</legend>
+                        Full Name: <input type="text" name="firstname"/><br/><br>
+                        Email: <input type="email" name="_replyto"><br/><br>
+                        Which country are you from?<br><br>
+                        <select name="country"> <option value="USA">USA</option> <option value="Canada">Canada</option> <option value="Mexico">Mexico</option> <option value="Africa">Africa</option> </select><br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Essay</legend>
+                        Please tell us why you want to become an NBA Player. What makes you unique? </br><br> <textarea name="essay">Text Here.</textarea><br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>More Info</legend>
+                       What is your position?<br>
+                    <input type="radio" name="position" value="Point Guard">Point Guard<br> <input type="radio" name="position" value="shootingguard">Shooting Guard<br>
+                    <input type="radio" name="position" value="Power Forward">Power Forward<br> <input type="radio" name="position" value="center">Center<br><br>
+                    Whose your favorite player?<br>
+                    <input type="checkbox" name="favoriteplayer" value="LeBronJames">LeBron James<br> <input type="checkbox" name="favoriteplayer" value="Kobe Bryant">Kobe Bryant<br><br>
+                    </fieldset>
+                    
+                    <input type="submit" value="Send">
+                </form>
+    </div>
+</body>
+</html>
